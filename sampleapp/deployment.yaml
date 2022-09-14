@@ -18,7 +18,7 @@ spec:
         app: simple
     spec:
       containers:
-      - image: mdhack/gitops-simpleapp:v1
+      - image: mdhack/gitops-simpleapp:v2
         name: gitops-simpleapp
         resources: {}
 status: {}
