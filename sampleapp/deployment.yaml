@@ -18,7 +18,7 @@ spec:
         app: simple
     spec:
       containers:
-      - image: docker.io/httpd
+      - image: podman pull quay.io/aptible/nginx
         name: gitops-simpleapp
         resources: {}
 status: {}
