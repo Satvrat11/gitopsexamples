@@ -18,7 +18,7 @@ spec:
         app: simple
     spec:
       containers:
-      - image: quay.io/aptible/nginx
+      - image: mdhack/gitops-simpleapp:v2
         name: gitops-simpleapp
         resources: {}
 status: {}
